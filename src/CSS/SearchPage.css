@@ -1,0 +1,237 @@
+.search-content .left-filter-bar
+{
+    /* background-color: red; */
+    width: 15%;
+    height: 500px;
+    float: left;
+    margin: 30px 0;
+    border-right: 2px solid gray;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0 20px;
+    color: #fff;
+
+}
+
+.search-content .left-filter-bar::before
+{
+    content: " ";
+    display: block;
+    width: calc( 100% + 2px );
+    height: 40px;
+    background-image: linear-gradient(#222, transparent);
+}
+
+.search-content .left-filter-bar::after
+{
+    content: " ";
+    display: block;
+    width: calc( 100% + 2px );
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(transparent, #222);
+}
+
+.search-content .main-search-content
+{
+    /* background-color: green; */
+    
+    width: 60%;
+    float: left;
+}
+
+.search-content .right-cart-preview
+{
+    /* background-color: yellow; */
+    width: 25%;
+    height: 500px;
+    float: left;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.search-content .search-item
+{
+    /* background-color: blue; */
+    height: 200px;
+    width: 95%;
+    margin: 30px auto;
+
+}
+
+.search-content .search-item span
+{
+    float: left;
+    display: block;
+    color: #e5e5e5;
+}
+
+.search-content .search-item-pic
+{
+    width: 180px;
+    height: 180px;
+    background-color: cornflowerblue;
+    background-image: url(https://cedrus.com.pl/uploads/data/g/wb455sc-3in1-01_13186.jpg);
+    background-size: cover;
+    background-position: center;;
+    margin: 10px;
+}
+
+.search-content .search-item-title
+{
+    width: calc( 100% - 210px );
+    height: 180px;
+    /* background-color: pink; */
+    margin: 10px;
+    margin-left: 0;
+}
+
+.search-content .search-item-name
+{
+    /* background-color: yellow; */
+    font-size: 21px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.search-content .search-item-desc
+{
+    font-size: 13px;
+}
+
+.search-content .search-item-price
+{
+    /* background-color: green; */
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+    width: 100%;
+    color: rgb(255, 145, 0) !important;
+}
+
+.search-content .search-item-price sup
+{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.search-content .search-item-last-row
+{
+    /* background-color: blue; */
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.search-content .search-item-col
+{
+    /* background-color: cornflowerblue; */
+    width: calc( 100% / 3 );
+    height: 100%;;
+    display: block;
+    float: left;
+}
+.search-content .search-item-bought
+{
+    text-align: center;
+}
+.search-content .search-item-rating
+{
+    text-align: right;
+}
+
+.clr
+{
+    clear: both;
+}
+
+.search-content .left-filter-section
+{
+    display: block;
+}
+
+.search-content  h2
+{
+
+    margin: 0 0 30px 0;
+}
+
+.search-content .left-filter-section span
+{
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.search-content .left-filter-section ul
+{
+    list-style-type: none;
+    padding-left: 20px;
+    color: #969696;
+}
+
+.search-content .left-filter-section input:checked + label
+{
+    color: #fff !important;
+}
+
+.search-content .right-cart-preview-item
+{
+    /* background-color: orange; */
+    width: 95%;
+    height: 100px;
+    margin: 5px auto;
+}
+
+.search-content .right-cart-preview-item-pic
+{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://cedrus.com.pl/uploads/data/g/wb455sc-3in1-01_13186.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.search-content .right-cart-preview-item-right
+{
+    display: block;
+    float: left;
+    width: calc( 100% - 100px );
+    height: 100px;
+    /* background-color: red; */
+}
+
+.search-content .right-cart-preview-item-title
+{
+    color: #fff;
+    font-weight: bold;
+    padding: 0 5px
+}
+
+.search-content .right-cart-preview-item-price
+{
+    display: block;
+    color: rgb(255, 145, 0) !important;
+    padding: 5px 5px;
+    font-weight: bold;
+}
+
+.search-content .right-cart-preview-item-count
+{
+    color: #b7b7b7;
+    padding: 5px;
+}
+
+.search-content .right-cart-preview-item-count input
+{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 0;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}

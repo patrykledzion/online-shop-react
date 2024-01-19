@@ -1,0 +1,41 @@
+.login-page
+{
+    width: 500px;
+    margin: 30px auto;
+}
+
+.login-page h2
+{
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+
+.login-page input[type=email], .login-page input[type=password],.login-page input[type=button]
+{
+    display: block;
+    width: 90%;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin: 20px auto;
+    background-color: #2c2c2c;
+    color: #b1b1b1;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-page input[type=button]
+{
+    background-color: #d26725;
+    color: #fff;
+    padding: 5px;
+}
+
+.login-page p
+{
+    text-align: center;
+} 

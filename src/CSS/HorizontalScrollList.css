@@ -1,0 +1,59 @@
+.horizontal-scroll-list
+{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+}
+
+.horizontal-scroll-list ul
+{
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition-duration: 0.3s;
+}
+.horizontal-scroll-list ul li
+{
+    flex-shrink: 0;
+    display: inline-block;
+    /* background-color: #fff; */
+    margin: 5px;
+    color: #000;
+    
+    
+}
+
+.horizontal-scroll-list button
+{
+    display: block;
+    width: 40px;
+    /* height: calc( 100% - 49px ); */
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #1d1d1d;
+    color: #fff;
+    border: none;
+}
+
+.horizontal-scroll-list button.list-button-right
+{
+    right: 0px;
+    top: 44px;
+}
+.horizontal-scroll-list button.list-button-left
+{
+    left: 0px;
+    top: 44px;
+}
+
+.horizontal-list-title
+{
+    display: block;
+    margin: 5px auto;
+    padding-left: 10px;
+    color: #fff;
+}

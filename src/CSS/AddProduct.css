@@ -1,0 +1,14 @@
+.add-order
+{
+     
+    width: 1000px;
+    background-color: #555;
+    margin: 10px auto;
+}
+
+.add-product-choose-category li
+{
+    display: block;
+    width: 100%;
+    margin: 5px;
+}
